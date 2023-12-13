@@ -29,7 +29,7 @@
     "eslint-plugin-react-refresh": "^0.4.1",
     "prettier": "^2.8.8",
     "typescript": "^5.1.6",
-    "vite": "^4.3.9",
-    "vite-plugin-ssr": "^0.4.132"
+    "vike": "^0.4.150",
+    "vite": "^4.3.9"
   }
 }

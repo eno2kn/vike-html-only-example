@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
-import ssr from "vite-plugin-ssr/plugin";
+import ssr from "vike/plugin";
 import path from "node:path";
 
 // https://vitejs.dev/config/
@@ -9,7 +9,6 @@ export default defineConfig({
     react(),
     ssr({
       prerender: true,
-      includeAssetsImportedByServer: true,
     }),
   ],
   resolve: {
